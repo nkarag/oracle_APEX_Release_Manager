@@ -1,0 +1,277 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="ACA5CCF5-C884-CA09-6B75-A2361F520847" directorySegmentName="seg_0" name="RLSMGR_FORMS">
+<sourceConnName>RMGR@EXADWHPROD</sourceConnName>
+<sourceObjSchema>RMGR</sourceObjSchema>
+<sourceObjName>RLSMGR_FORMS</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<schemaObject>FCFF2C7C-1E69-8DC3-69E4-BA3068ABED8D</schemaObject>
+<pkName>RLSMGR_FORMS_PK</pkName>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject>
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FORM_ID" id="E9B3DFFB-325D-3A41-ECBF-8621B8D53479">
+<sourceConnName>RMGR@EXADWHPROD</sourceConnName>
+<sourceObjSchema>RLSMGR_FORMS</sourceObjSchema>
+<sourceObjName>FORM_ID</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRJMGR_ID" id="609F8DEA-5F12-CC94-CC1B-7C033073082D">
+<sourceConnName>RMGR@EXADWHPROD</sourceConnName>
+<sourceObjSchema>RLSMGR_FORMS</sourceObjSchema>
+<sourceObjName>PRJMGR_ID</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FORM_TYPE_ID" id="8A7B6A13-CFF1-579B-6047-3A4022AC07C0">
+<sourceConnName>RMGR@EXADWHPROD</sourceConnName>
+<sourceObjSchema>RLSMGR_FORMS</sourceObjSchema>
+<sourceObjName>FORM_TYPE_ID</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<delegate>2111BDD8-8E45-5A8F-29B3-02A0BF0A7ABD</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5F70E0C-967D-71FE-F2A8-34F121CDC4BF" referredColumn="2111BDD8-8E45-5A8F-29B3-02A0BF0A7ABD"/>
+</associations>
+</Column>
+<Column name="POPULATION_DATE" id="1EFE6135-B979-509A-0DF0-676574864565">
+<sourceConnName>RMGR@EXADWHPROD</sourceConnName>
+<sourceObjSchema>RLSMGR_FORMS</sourceObjSchema>
+<sourceObjName>POPULATION_DATE</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_UPDATE_DATE" id="28DA39D3-96B8-4EA9-9D1C-B6B4971812A1">
+<sourceConnName>RMGR@EXADWHPROD</sourceConnName>
+<sourceObjSchema>RLSMGR_FORMS</sourceObjSchema>
+<sourceObjName>LAST_UPDATE_DATE</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUGZILLA_ID" id="FD9781BC-390F-E976-4410-0B44D9A7CABB">
+<sourceConnName>RMGR@EXADWHPROD</sourceConnName>
+<sourceObjSchema>RLSMGR_FORMS</sourceObjSchema>
+<sourceObjName>BUGZILLA_ID</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RM_BUGZILLA_ID" id="E035E0FE-3295-D437-7B24-0525F19AED8E">
+<sourceConnName>RMGR@EXADWHPROD</sourceConnName>
+<sourceObjSchema>RLSMGR_FORMS</sourceObjSchema>
+<sourceObjName>RM_BUGZILLA_ID</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TASK_NAME" id="101C2C93-7FB7-DBA2-D41E-44305A366398">
+<sourceConnName>RMGR@EXADWHPROD</sourceConnName>
+<sourceObjSchema>RLSMGR_FORMS</sourceObjSchema>
+<sourceObjName>TASK_NAME</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SHORT_DESC" id="B3A29B96-8FE8-01EF-5E1B-A881F803DD29">
+<sourceConnName>RMGR@EXADWHPROD</sourceConnName>
+<sourceObjSchema>RLSMGR_FORMS</sourceObjSchema>
+<sourceObjName>SHORT_DESC</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS_ID" id="3EF3EEA1-523D-6D6E-B644-2896E1F092BE">
+<sourceConnName>RMGR@EXADWHPROD</sourceConnName>
+<sourceObjSchema>RLSMGR_FORMS</sourceObjSchema>
+<sourceObjName>STATUS_ID</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<delegate>697E2FDC-2EDB-4A14-2169-E17D85ACB1E6</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20C22712-5629-1F18-D56C-AD6F152FFF07" referredColumn="697E2FDC-2EDB-4A14-2169-E17D85ACB1E6"/>
+</associations>
+</Column>
+<Column name="RLS_ID" id="32F0BA1E-8A2C-25C1-A69E-704EDA043FE7">
+<sourceConnName>RMGR@EXADWHPROD</sourceConnName>
+<sourceObjSchema>RLSMGR_FORMS</sourceObjSchema>
+<sourceObjName>RLS_ID</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<commentInRDBMS>Points to the release where this CR belongs</commentInRDBMS>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<defaultValue>1</defaultValue>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<delegate>6F639762-2F87-65D9-918F-4D9483E4064D</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6D0B8EF-8F2D-3C23-1AF3-6790C312980A" referredColumn="6F639762-2F87-65D9-918F-4D9483E4064D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ABE0E334-E7C9-4410-501C-06B942A58CB0" name="RLSMGR_FORMS_PK">
+<sourceConnName>RMGR@EXADWHPROD</sourceConnName>
+<sourceObjSchema>RMGR</sourceObjSchema>
+<sourceObjName>RLSMGR_FORMS_PK</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:14 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<schemaObject>FCFF2C7C-1E69-8DC3-69E4-BA3068ABED8D</schemaObject>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="E9B3DFFB-325D-3A41-ECBF-8621B8D53479"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98B2AAED-891B-FF9C-586D-0AEA4B3A748B" name="RLSMGR_FORMS_CON">
+<sourceConnName>RMGR@EXADWHPROD</sourceConnName>
+<sourceObjSchema>RMGR</sourceObjSchema>
+<sourceObjName>RLSMGR_FORMS_CON</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:14 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<schemaObject>FCFF2C7C-1E69-8DC3-69E4-BA3068ABED8D</schemaObject>
+<indexState>Unique Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="FD9781BC-390F-E976-4410-0B44D9A7CABB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5DC2FD4B-4718-0F2A-B479-27B6D531513E" name="RLS_ID_FK_IDX">
+<sourceConnName>RMGR@EXADWHPROD</sourceConnName>
+<sourceObjSchema>RMGR</sourceObjSchema>
+<sourceObjName>RLS_ID_FK_IDX</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:14 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<schemaObject>FCFF2C7C-1E69-8DC3-69E4-BA3068ABED8D</schemaObject>
+<indexColumnUsage>
+<colUsage columnID="32F0BA1E-8A2C-25C1-A69E-704EDA043FE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D6C2135-284A-213F-A90B-CACE08BFBB7F" name="RLSMGR_FORMTYP_FK">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:15 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="8A7B6A13-CFF1-579B-6047-3A4022AC07C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23BB85FF-B20E-5C4C-EDB1-66E395810339" name="RLSMGR_RLS_FK">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:15 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="32F0BA1E-8A2C-25C1-A69E-704EDA043FE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E03DEE74-FF66-45E2-E235-211FFB94DC77" name="RLSMGR_STATUSID_FK">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:15 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="3EF3EEA1-523D-6D6E-B644-2896E1F092BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

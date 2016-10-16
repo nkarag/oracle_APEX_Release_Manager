@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="RLSMGR_PRJ_MANAGERS" id="0CADB451-26CF-6714-BCD1-76463BA273AE" directorySegmentName="seg_0">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>64B848D5-E9B4-74FB-0CA1-D92B1DBFB5E9</segment>
+<tableSpace>85C6E737-97E0-CB70-75CE-DC57E796770F</tableSpace>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="PRJMGR_FNAME" id="141E66BC-A490-9848-FE27-DC5BFC1536C4">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="PRJMGR_EMAIL" id="B78F274E-6B6E-737E-63D1-82FB50C50AD0">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="PRJMGR_LNAME" id="D5D85161-46CA-A2D1-0F26-C7BCE3D71DFB">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="PRJMGR_ID" id="ED99CB34-6E13-AC86-AC25-38DEDB19C9BB">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RLSMGR_PRJ_MANAGERS_PK" id="2C260193-EEA9-274E-7C0F-3114C8D8576E">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:15 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<logging>NO</logging>
+<sortedRows>SORTED</sortedRows>
+<tableSpace>419C0BEF-F6D0-90DA-AE67-47CF4A3FE504</tableSpace>
+<indexSegment>2FC04468-235B-F576-325C-2117E89D7B78</indexSegment>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

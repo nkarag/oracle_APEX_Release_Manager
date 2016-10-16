@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="RLMGR_AUTH_SCHEMES" id="1F9C39A1-C70B-AC21-374B-42AD80DF10F7" directorySegmentName="seg_0">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>2AC47B44-ED5A-1D29-7A1C-DA03C097C6E0</segment>
+<tableSpace>1AD7192A-BA21-0B4D-9E5C-5063D2C6B2F3</tableSpace>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ROLE" id="23D3837A-D4BB-AC41-C136-0E13F776197E">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="USERNAME" id="DBBB7997-72F0-5FB7-ADD0-7F8E87366F45">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

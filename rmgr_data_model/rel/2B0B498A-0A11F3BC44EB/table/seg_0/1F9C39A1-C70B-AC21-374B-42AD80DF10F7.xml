@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="1F9C39A1-C70B-AC21-374B-42AD80DF10F7" directorySegmentName="seg_0" name="RLMGR_AUTH_SCHEMES">
+<sourceConnName>RMGR@EXADWHPROD</sourceConnName>
+<sourceObjSchema>RMGR</sourceObjSchema>
+<sourceObjName>RLMGR_AUTH_SCHEMES</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<schemaObject>FCFF2C7C-1E69-8DC3-69E4-BA3068ABED8D</schemaObject>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject>
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USERNAME" id="DBBB7997-72F0-5FB7-ADD0-7F8E87366F45">
+<sourceConnName>RMGR@EXADWHPROD</sourceConnName>
+<sourceObjSchema>RLMGR_AUTH_SCHEMES</sourceObjSchema>
+<sourceObjName>USERNAME</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROLE" id="23D3837A-D4BB-AC41-C136-0E13F776197E">
+<sourceConnName>RMGR@EXADWHPROD</sourceConnName>
+<sourceObjSchema>RLMGR_AUTH_SCHEMES</sourceObjSchema>
+<sourceObjName>ROLE</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

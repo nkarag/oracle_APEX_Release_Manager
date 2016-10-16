@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="B6D0B8EF-8F2D-3C23-1AF3-6790C312980A" directorySegmentName="seg_0" name="RLSMGR_RLS_FK">
+<sourceConnName>RMGR@EXADWHPROD</sourceConnName>
+<sourceObjSchema>RMGR</sourceObjSchema>
+<sourceObjName>RLSMGR_RLS_FK</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:15 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<containerWithKeyObject>ACA5CCF5-C884-CA09-6B75-A2361F520847</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>23BB85FF-B20E-5C4C-EDB1-66E395810339</localFKIndex>
+<keyObject>AC5D04AC-3A19-62E5-B552-1DB2AA1207D7</keyObject>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+</FKIndexAssociation>

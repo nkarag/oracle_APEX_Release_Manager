@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="BI_RLSMGR_FORMS" id="B178D78B-4DF3-668B-C12C-C2C9A15EF0F2" directorySegmentName="seg_0">
+<sourceConnName>RMGR@EXADWHPROD</sourceConnName>
+<sourceObjSchema>RMGR</sourceObjSchema>
+<sourceObjName>BI_RLSMGR_FORMS</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:15 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<actions>INSERT</actions>
+<body>begin   &lt;br/&gt;  if :NEW.&quot;FORM_ID&quot; is null then &lt;br/&gt;    select &quot;RLSMGR_FORMS_SEQ&quot;.nextval into :NEW.&quot;FORM_ID&quot; from dual; &lt;br/&gt;  end if; &lt;br/&gt;end; &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>FDA86F85-BE01-0F29-CE78-86C6CF93F0A8</owner>
+<table>ACA5CCF5-C884-CA09-6B75-A2361F520847</table>
+</TriggerOraclev10g>

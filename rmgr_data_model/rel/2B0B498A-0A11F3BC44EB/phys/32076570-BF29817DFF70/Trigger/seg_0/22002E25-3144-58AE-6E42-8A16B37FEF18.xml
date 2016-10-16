@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="BI_RLSMGR_OBJECTS" id="22002E25-3144-58AE-6E42-8A16B37FEF18" directorySegmentName="seg_0">
+<sourceConnName>RMGR@EXADWHPROD</sourceConnName>
+<sourceObjSchema>RMGR</sourceObjSchema>
+<sourceObjName>BI_RLSMGR_OBJECTS</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:15 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<actions>INSERT</actions>
+<body>begin   &lt;br/&gt;  if :NEW.&quot;OBJ_ID&quot; is null then &lt;br/&gt;    select &quot;RLSMGR_OBJECTS_SEQ&quot;.nextval into :NEW.&quot;OBJ_ID&quot; from dual; &lt;br/&gt;  end if; &lt;br/&gt;end; &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>FDA86F85-BE01-0F29-CE78-86C6CF93F0A8</owner>
+<table>F9957B87-269A-3A6B-0417-D2F3E549E059</table>
+</TriggerOraclev10g>

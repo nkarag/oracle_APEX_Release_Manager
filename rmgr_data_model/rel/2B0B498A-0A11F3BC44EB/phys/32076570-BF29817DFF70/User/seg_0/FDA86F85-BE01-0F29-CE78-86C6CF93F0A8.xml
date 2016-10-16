@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="RMGR" id="FDA86F85-BE01-0F29-CE78-86C6CF93F0A8" directorySegmentName="seg_0">
+<sourceConnName>RMGR@EXADWHPROD</sourceConnName>
+<sourceObjName>RMGR</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<schemaObject>FCFF2C7C-1E69-8DC3-69E4-BA3068ABED8D</schemaObject>
+</UserOraclev10g>

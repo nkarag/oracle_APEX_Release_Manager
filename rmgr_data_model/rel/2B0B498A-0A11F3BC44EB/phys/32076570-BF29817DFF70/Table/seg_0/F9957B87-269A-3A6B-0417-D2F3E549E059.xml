@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="RLSMGR_OBJECTS" id="F9957B87-269A-3A6B-0417-D2F3E549E059" directorySegmentName="seg_0">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>2ED82EBD-3C9F-B3DB-1339-91298E3EFFDC</segment>
+<tableSpace>85C6E737-97E0-CB70-75CE-DC57E796770F</tableSpace>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="OBJ_AREA_ID" id="406CD64D-6A7D-106B-6766-8B883323AE1A">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="OBJ_ID" id="40DC213A-F158-E8C6-D76D-F73D692D7FCF">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="FORM_ID" id="6ED8B5E1-AF13-C62B-0DF4-4D81A151FDAF">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="OBJ_TYPE_ID" id="8E9FFA76-FCBD-136D-CD2B-CBF4E5ADF05B">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="OBJ_DESC" id="B320F02D-E084-9DAF-C16B-7BEC23049EC1">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RLSMGR_FORMID_FK" id="1F25B320-BDD7-3979-F646-50E2BBF2E5E6">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:15 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<validate>NO</validate>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RLSMGR_OBJTYPES_FK" id="8EE2CFCF-BD33-8445-B8FF-CE6581EBAEA1">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:15 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RLSMGR_OBJAREA_FK" id="DFCB02D6-EAC8-F429-4C51-7F6E967C42BC">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:15 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RLSMGR_OBJECTS_PK" id="19459569-C264-FB66-0FFB-718814D5D6FA">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:15 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<logging>NO</logging>
+<sortedRows>SORTED</sortedRows>
+<tableSpace>405074CA-CFFE-9FC7-0902-3BF35E08ADC4</tableSpace>
+<indexSegment>B035D0F0-9C06-949A-5E33-8B6AEFF21946</indexSegment>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="RLSMGR_OBJECTS_UNQ" id="12145765-3623-7910-AFF8-4B912430E7F9">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:15 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<logging>NO</logging>
+<sortedRows>SORTED</sortedRows>
+<tableSpace>72A6313B-958D-D9F1-407E-E346CF0BE493</tableSpace>
+<indexSegment>6A63A346-3433-6016-E70E-F64AFF300B88</indexSegment>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

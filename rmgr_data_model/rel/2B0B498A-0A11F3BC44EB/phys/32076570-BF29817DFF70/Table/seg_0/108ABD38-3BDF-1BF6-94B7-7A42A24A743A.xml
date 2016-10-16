@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="RLSMGR_FORMCHANGESOBJS" id="108ABD38-3BDF-1BF6-94B7-7A42A24A743A" directorySegmentName="seg_0">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>64B848D5-E9B4-74FB-0CA1-D92B1DBFB5E9</segment>
+<tableSpace>85C6E737-97E0-CB70-75CE-DC57E796770F</tableSpace>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="OBJ_ID" id="88E35DFD-E9D8-51D9-DBDD-6EF3C49F810F">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="FORM_ID" id="DE2CFE9E-DB9F-90E4-DF3F-4E022FCC246F">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="CHANGE_DETAILS" id="DE3D52DA-3B4B-ED82-71C3-37FB2AAD3F87">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RLSMGR_FORMCHANGESOBJS_CON2" id="7BE7BAD6-C5BD-B1D3-D947-C6B3D2201FA1">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:15 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RLSMGR_FORMCHANGESOBJS_CON" id="95D0CF37-6DF5-B870-8FE4-526983FE2FE8">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:15 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RLSMGR_FORMCHANGESOBJS_PK" id="B8834C96-8584-30B3-8E2E-6DA4487151DD">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:14 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<logging>NO</logging>
+<sortedRows>SORTED</sortedRows>
+<tableSpace>F04C4A1A-2C8E-0E79-399A-26CDF5810B76</tableSpace>
+<indexSegment>2FC04468-235B-F576-325C-2117E89D7B78</indexSegment>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

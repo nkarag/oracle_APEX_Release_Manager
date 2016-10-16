@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="BI_RLSMGR_PRJ_MANAGERS" id="712F62AE-B6BB-F4D2-793F-EA7BDF95A988" directorySegmentName="seg_0">
+<sourceConnName>RMGR@EXADWHPROD</sourceConnName>
+<sourceObjSchema>RMGR</sourceObjSchema>
+<sourceObjName>BI_RLSMGR_PRJ_MANAGERS</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:15 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<actions>INSERT</actions>
+<body>begin   &lt;br/&gt;  if :NEW.&quot;PRJMGR_ID&quot; is null then &lt;br/&gt;    select &quot;RLSMGR_PRJ_MANAGERS_SEQ&quot;.nextval into :NEW.&quot;PRJMGR_ID&quot; from dual; &lt;br/&gt;  end if; &lt;br/&gt;end; &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>FDA86F85-BE01-0F29-CE78-86C6CF93F0A8</owner>
+<table>0CADB451-26CF-6714-BCD1-76463BA273AE</table>
+</TriggerOraclev10g>

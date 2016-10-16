@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="DE86460C-86B6-0A34-D7B9-9EB44C1EFC6D" directorySegmentName="seg_0" name="RLSMGR_AREAS_TO_OBJTYPES">
+<sourceConnName>RMGR@EXADWHPROD</sourceConnName>
+<sourceObjSchema>RMGR</sourceObjSchema>
+<sourceObjName>RLSMGR_AREAS_TO_OBJTYPES</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<schemaObject>FCFF2C7C-1E69-8DC3-69E4-BA3068ABED8D</schemaObject>
+<pkName>RLSMGR_AREAS_TO_OBJTYPES_PK</pkName>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject>
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AREA_ID" id="DEE63B24-5B44-13C5-8F38-58E78BE03410">
+<sourceConnName>RMGR@EXADWHPROD</sourceConnName>
+<sourceObjSchema>RLSMGR_AREAS_TO_OBJTYPES</sourceObjSchema>
+<sourceObjName>AREA_ID</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<delegate>3412C985-A58A-7932-F4F2-8C4D75AE8089</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87B56F95-5EF9-E764-5C10-0787BCA7350F" referredColumn="3412C985-A58A-7932-F4F2-8C4D75AE8089"/>
+</associations>
+</Column>
+<Column name="OBJ_TYPE_ID" id="DD719522-77CF-B4C9-FCEC-BD1B55042E22">
+<sourceConnName>RMGR@EXADWHPROD</sourceConnName>
+<sourceObjSchema>RLSMGR_AREAS_TO_OBJTYPES</sourceObjSchema>
+<sourceObjName>OBJ_TYPE_ID</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<delegate>846D9D8E-9CFD-4154-99C6-B456E07C5D28</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6ADC052-A7EA-07D8-6D52-7D25081F436F" referredColumn="846D9D8E-9CFD-4154-99C6-B456E07C5D28"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EA25B7FF-918B-D85C-66F3-1B830A943F00" name="RLSMGR_AREAS_TO_OBJTYPES_PK">
+<sourceConnName>RMGR@EXADWHPROD</sourceConnName>
+<sourceObjSchema>RMGR</sourceObjSchema>
+<sourceObjName>RLSMGR_AREAS_TO_OBJTYPES_PK</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:14 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<schemaObject>FCFF2C7C-1E69-8DC3-69E4-BA3068ABED8D</schemaObject>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="DEE63B24-5B44-13C5-8F38-58E78BE03410"/>
+<colUsage columnID="DD719522-77CF-B4C9-FCEC-BD1B55042E22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2DCD535A-CBC3-FB5F-88E9-1C893E1C6A62" name="AREA_ID_FK">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:15 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="DEE63B24-5B44-13C5-8F38-58E78BE03410"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3444E304-2FFE-B2A3-3C48-5C0CD23BD06C" name="OBJ_TYPE_ID_FK">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:15 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="DD719522-77CF-B4C9-FCEC-BD1B55042E22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="TRG_RLSMGR_RLS" id="577A749C-7BE7-3F60-1F0E-FF0390F886EA" directorySegmentName="seg_0">
+<sourceConnName>RMGR@EXADWHPROD</sourceConnName>
+<sourceObjSchema>RMGR</sourceObjSchema>
+<sourceObjName>TRG_RLSMGR_RLS</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:15 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<actions>INSERT</actions>
+<body>BEGIN&lt;br/&gt;	IF :NEW.&quot;RLS_ID&quot; IS NULL THEN&lt;br/&gt;		SELECT &quot;RLSMGR_RLS_SEQ&quot;.nextval INTO :NEW.&quot;RLS_ID&quot; FROM dual;&lt;br/&gt;&lt;br/&gt;		-- generate also the Release Name&lt;br/&gt;		IF :NEW.TARGET_DEPLOY_DATE IS NOT NULL and :NEW.RLS_TYPE_CODE IS NOT NULL THEN&lt;br/&gt;			:NEW.RLS_NAME := to_char(:NEW.TARGET_DEPLOY_DATE,&apos;YYYYMMDD&apos;)||&apos;.&apos;||:NEW.RLS_TYPE_CODE||&apos;.&apos;||lpad(:NEW.RLS_ID,5,&apos;0&apos;);&lt;br/&gt;		END IF;&lt;br/&gt;	END IF;&lt;br/&gt;END;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>FDA86F85-BE01-0F29-CE78-86C6CF93F0A8</owner>
+<table>5154189F-F705-5506-AF29-6E23B6DBE9F4</table>
+</TriggerOraclev10g>

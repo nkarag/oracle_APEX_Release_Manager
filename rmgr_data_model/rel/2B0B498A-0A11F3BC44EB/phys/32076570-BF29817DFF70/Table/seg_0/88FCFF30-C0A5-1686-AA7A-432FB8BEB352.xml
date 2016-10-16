@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="RLSMGR_FORMREFERSTOAREAS" id="88FCFF30-C0A5-1686-AA7A-432FB8BEB352" directorySegmentName="seg_0">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>64B848D5-E9B4-74FB-0CA1-D92B1DBFB5E9</segment>
+<tableSpace>85C6E737-97E0-CB70-75CE-DC57E796770F</tableSpace>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="AREA_ID" id="997670D3-E8B3-F935-DA8E-65AF8F41522B">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="FORM_ID" id="E2C3A054-D352-FC46-CE21-26D513EFF24A">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RLSMGR_FORMREFERSTOAREAS_FK1" id="2710C5A0-493A-ED06-0454-E7B356FBEA38">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:15 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RLSMGR_FORMREFERSTOAREAS_FK2" id="D65C6E5E-C608-7D72-1CFD-F78328F1B657">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:15 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="RLSMGR_FORMREFERSTOAREAS_UK1" id="47D19869-227D-958A-234A-9CCF522FACC8">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:14 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<logging>NO</logging>
+<sortedRows>SORTED</sortedRows>
+<tableSpace>405074CA-CFFE-9FC7-0902-3BF35E08ADC4</tableSpace>
+<indexSegment>2FC04468-235B-F576-325C-2117E89D7B78</indexSegment>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

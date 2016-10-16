@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>
+   <object objectType="TSpace" objectID="F04C4A1A-2C8E-0E79-399A-26CDF5810B76" name="INDX01" seqName="seg_0"/>
+   <object objectType="TSpace" objectID="405074CA-CFFE-9FC7-0902-3BF35E08ADC4" name="INDX02" seqName="seg_0"/>
+   <object objectType="TSpace" objectID="72A6313B-958D-D9F1-407E-E346CF0BE493" name="INDX03" seqName="seg_0"/>
+   <object objectType="TSpace" objectID="419C0BEF-F6D0-90DA-AE67-47CF4A3FE504" name="INDX04" seqName="seg_0"/>
+   <object objectType="TSpace" objectID="1AD7192A-BA21-0B4D-9E5C-5063D2C6B2F3" name="TBS01" seqName="seg_0"/>
+   <object objectType="TSpace" objectID="85C6E737-97E0-CB70-75CE-DC57E796770F" name="TBS02" seqName="seg_0"/>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0"/>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0"/>
+   <object objectType="User" objectID="FDA86F85-BE01-0F29-CE78-86C6CF93F0A8" name="RMGR" seqName="seg_0"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0"/>
+   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0"/>
+   <object objectType="Table" objectID="0CADB451-26CF-6714-BCD1-76463BA273AE" name="RLSMGR_PRJ_MANAGERS" seqName="seg_0"/>
+   <object objectType="Table" objectID="108ABD38-3BDF-1BF6-94B7-7A42A24A743A" name="RLSMGR_FORMCHANGESOBJS" seqName="seg_0"/>
+   <object objectType="Table" objectID="1F9C39A1-C70B-AC21-374B-42AD80DF10F7" name="RLMGR_AUTH_SCHEMES" seqName="seg_0"/>
+   <object objectType="Table" objectID="25E01BAE-0F97-B437-7AB5-3801825EA0F4" name="RLSMGR_FORM_TYPES" seqName="seg_0"/>
+   <object objectType="Table" objectID="3B1D927E-801E-ACC5-D5B9-7E4CDDEE630B" name="RLSMGR_OBJ_TYPES" seqName="seg_0"/>
+   <object objectType="Table" objectID="5154189F-F705-5506-AF29-6E23B6DBE9F4" name="RLSMGR_RELEASES" seqName="seg_0"/>
+   <object objectType="Table" objectID="6230C067-BF33-669C-A195-8C6D21F8D54F" name="RLSMGR_RLS_TYPES" seqName="seg_0"/>
+   <object objectType="Table" objectID="71B78DCD-B9D3-F181-4155-69434513C1FC" name="RLSMGR_STATUSES" seqName="seg_0"/>
+   <object objectType="Table" objectID="88FCFF30-C0A5-1686-AA7A-432FB8BEB352" name="RLSMGR_FORMREFERSTOAREAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="913B35F1-243E-67A4-7100-42A12DFA90A4" name="RLSMGR_AREAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="ACA5CCF5-C884-CA09-6B75-A2361F520847" name="RLSMGR_FORMS" seqName="seg_0"/>
+   <object objectType="Table" objectID="C7929E51-9089-79DF-60B8-D0051EFAA6C5" name="RLSMGR_FORMS2RELEASES_MAP" seqName="seg_0"/>
+   <object objectType="Table" objectID="DE86460C-86B6-0A34-D7B9-9EB44C1EFC6D" name="RLSMGR_AREAS_TO_OBJTYPES" seqName="seg_0"/>
+   <object objectType="Table" objectID="F9957B87-269A-3A6B-0417-D2F3E549E059" name="RLSMGR_OBJECTS" seqName="seg_0"/>
+   <object objectType="Segment" objectID="2AC47B44-ED5A-1D29-7A1C-DA03C097C6E0" name="Storage1" seqName="seg_0"/>
+   <object objectType="Segment" objectID="2FC04468-235B-F576-325C-2117E89D7B78" name="Storage14" seqName="seg_0"/>
+   <object objectType="Segment" objectID="ADC22931-A333-79B3-1310-09C084C636DB" name="Storage15" seqName="seg_0"/>
+   <object objectType="Segment" objectID="6D78613B-598B-4F21-1D43-B9048C33730C" name="Storage16" seqName="seg_0"/>
+   <object objectType="Segment" objectID="AF5CB4AB-113C-1922-C779-37EDDACF0AC7" name="Storage19" seqName="seg_0"/>
+   <object objectType="Segment" objectID="64B848D5-E9B4-74FB-0CA1-D92B1DBFB5E9" name="Storage2" seqName="seg_0"/>
+   <object objectType="Segment" objectID="6A63A346-3433-6016-E70E-F64AFF300B88" name="Storage20" seqName="seg_0"/>
+   <object objectType="Segment" objectID="B035D0F0-9C06-949A-5E33-8B6AEFF21946" name="Storage23" seqName="seg_0"/>
+   <object objectType="Segment" objectID="F3ED017A-82C9-A667-A31D-A142465DD514" name="Storage24" seqName="seg_0"/>
+   <object objectType="Segment" objectID="2ED82EBD-3C9F-B3DB-1339-91298E3EFFDC" name="Storage8" seqName="seg_0"/>
+   <object objectType="Segment" objectID="4C78AAED-2038-5FA6-758F-DEFC1A0B9E79" name="Storage9" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="0F93EF26-4D4C-18EC-3071-547F29B85D96" name="BI_RLSMGR_AREAS" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="B178D78B-4DF3-668B-C12C-C2C9A15EF0F2" name="BI_RLSMGR_FORMS" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="C5E51EB3-5844-C971-2AA3-B7B9B988A49C" name="BI_RLSMGR_FORM_TYPES" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="22002E25-3144-58AE-6E42-8A16B37FEF18" name="BI_RLSMGR_OBJECTS" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="5974933B-A1D1-87BF-0DCB-CE6447857664" name="BI_RLSMGR_OBJ_TYPES" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="712F62AE-B6BB-F4D2-793F-EA7BDF95A988" name="BI_RLSMGR_PRJ_MANAGERS" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="577A749C-7BE7-3F60-1F0E-FF0390F886EA" name="TRG_RLSMGR_RLS" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>

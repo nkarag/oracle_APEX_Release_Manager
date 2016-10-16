@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="rmgr_data_model" id="FAC5CE63-F564-7AB9-7BAF-2BCB1C8F00F5" version="3.5">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:21:57 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>FAC5CE63-F564-7AB9-7BAF-2BCB1C8F00F5</designId>
+</OSDM_Design>

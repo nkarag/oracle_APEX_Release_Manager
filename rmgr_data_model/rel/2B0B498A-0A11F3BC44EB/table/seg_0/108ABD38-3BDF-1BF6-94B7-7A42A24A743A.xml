@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="108ABD38-3BDF-1BF6-94B7-7A42A24A743A" directorySegmentName="seg_0" name="RLSMGR_FORMCHANGESOBJS">
+<sourceConnName>RMGR@EXADWHPROD</sourceConnName>
+<sourceObjSchema>RMGR</sourceObjSchema>
+<sourceObjName>RLSMGR_FORMCHANGESOBJS</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<schemaObject>FCFF2C7C-1E69-8DC3-69E4-BA3068ABED8D</schemaObject>
+<pkName>RLSMGR_FORMCHANGESOBJS_PK</pkName>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject>
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FORM_ID" id="DE2CFE9E-DB9F-90E4-DF3F-4E022FCC246F">
+<sourceConnName>RMGR@EXADWHPROD</sourceConnName>
+<sourceObjSchema>RLSMGR_FORMCHANGESOBJS</sourceObjSchema>
+<sourceObjName>FORM_ID</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<delegate>E9B3DFFB-325D-3A41-ECBF-8621B8D53479</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="29A5F155-9874-558D-68C2-B0EBF692CBF5" referredColumn="E9B3DFFB-325D-3A41-ECBF-8621B8D53479"/>
+</associations>
+</Column>
+<Column name="OBJ_ID" id="88E35DFD-E9D8-51D9-DBDD-6EF3C49F810F">
+<sourceConnName>RMGR@EXADWHPROD</sourceConnName>
+<sourceObjSchema>RLSMGR_FORMCHANGESOBJS</sourceObjSchema>
+<sourceObjName>OBJ_ID</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<delegate>40DC213A-F158-E8C6-D76D-F73D692D7FCF</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F9D086D-B286-BEDC-3608-F4E7A9CBE941" referredColumn="40DC213A-F158-E8C6-D76D-F73D692D7FCF"/>
+</associations>
+</Column>
+<Column name="CHANGE_DETAILS" id="DE3D52DA-3B4B-ED82-71C3-37FB2AAD3F87">
+<sourceConnName>RMGR@EXADWHPROD</sourceConnName>
+<sourceObjSchema>RLSMGR_FORMCHANGESOBJS</sourceObjSchema>
+<sourceObjName>CHANGE_DETAILS</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B8834C96-8584-30B3-8E2E-6DA4487151DD" name="RLSMGR_FORMCHANGESOBJS_PK">
+<sourceConnName>RMGR@EXADWHPROD</sourceConnName>
+<sourceObjSchema>RMGR</sourceObjSchema>
+<sourceObjName>RLSMGR_FORMCHANGESOBJS_PK</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:14 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<schemaObject>FCFF2C7C-1E69-8DC3-69E4-BA3068ABED8D</schemaObject>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="DE2CFE9E-DB9F-90E4-DF3F-4E022FCC246F"/>
+<colUsage columnID="88E35DFD-E9D8-51D9-DBDD-6EF3C49F810F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95D0CF37-6DF5-B870-8FE4-526983FE2FE8" name="RLSMGR_FORMCHANGESOBJS_CON">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:15 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="DE2CFE9E-DB9F-90E4-DF3F-4E022FCC246F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7BE7BAD6-C5BD-B1D3-D947-C6B3D2201FA1" name="RLSMGR_FORMCHANGESOBJS_CON2">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:15 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="88E35DFD-E9D8-51D9-DBDD-6EF3C49F810F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

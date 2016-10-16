@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="RLSMGR_FORMS2RELEASES_MAP" id="C7929E51-9089-79DF-60B8-D0051EFAA6C5" directorySegmentName="seg_0">
+<createdBy>nkarag</createdBy>
+<createdTime>2014-05-21 13:56:39 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>2AC47B44-ED5A-1D29-7A1C-DA03C097C6E0</segment>
+<tableSpace>1AD7192A-BA21-0B4D-9E5C-5063D2C6B2F3</tableSpace>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="FORM_ID" id="33B1C4F6-87F0-B73A-5914-4B8D4ECF7A26">
+<createdBy>nkarag</createdBy>
+<createdTime>2014-05-21 13:56:39 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="RLS_ID" id="CAB97033-491A-F1D3-8937-26C2BA8BF823">
+<createdBy>nkarag</createdBy>
+<createdTime>2014-05-21 13:56:39 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RLSMGR_FORMS2RELEASES_MAP_FK1" id="57EB8AA2-3D67-AC4F-7A0E-753594E72738">
+<createdBy>nkarag</createdBy>
+<createdTime>2014-05-21 13:56:39 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RLSMGR_FORMS2RELEASES_MAP_FK2" id="EDC0400F-A06A-9C18-BF99-CDA3B188B863">
+<createdBy>nkarag</createdBy>
+<createdTime>2014-05-21 13:56:39 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RLSMGR_FORMS2RELEASES_MAP_PK" id="9C73689D-CE2E-A66E-7692-9C8AE9408E84">
+<createdBy>nkarag</createdBy>
+<createdTime>2014-05-21 13:56:39 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<sortedRows>SORTED</sortedRows>
+<tableSpace>1AD7192A-BA21-0B4D-9E5C-5063D2C6B2F3</tableSpace>
+<indexSegment>6D78613B-598B-4F21-1D43-B9048C33730C</indexSegment>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

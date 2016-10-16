@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="FCFF2C7C-1E69-8DC3-69E4-BA3068ABED8D" name="RMGR" seqName="seg_0"/>
+   <object objectType="Table" objectID="1F9C39A1-C70B-AC21-374B-42AD80DF10F7" name="RLMGR_AUTH_SCHEMES" seqName="seg_0"/>
+   <object objectType="Table" objectID="913B35F1-243E-67A4-7100-42A12DFA90A4" name="RLSMGR_AREAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="DE86460C-86B6-0A34-D7B9-9EB44C1EFC6D" name="RLSMGR_AREAS_TO_OBJTYPES" seqName="seg_0"/>
+   <object objectType="Table" objectID="108ABD38-3BDF-1BF6-94B7-7A42A24A743A" name="RLSMGR_FORMCHANGESOBJS" seqName="seg_0"/>
+   <object objectType="Table" objectID="88FCFF30-C0A5-1686-AA7A-432FB8BEB352" name="RLSMGR_FORMREFERSTOAREAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="ACA5CCF5-C884-CA09-6B75-A2361F520847" name="RLSMGR_FORMS" seqName="seg_0"/>
+   <object objectType="Table" objectID="C7929E51-9089-79DF-60B8-D0051EFAA6C5" name="RLSMGR_FORMS2RELEASES_MAP" seqName="seg_0"/>
+   <object objectType="Table" objectID="25E01BAE-0F97-B437-7AB5-3801825EA0F4" name="RLSMGR_FORM_TYPES" seqName="seg_0"/>
+   <object objectType="Table" objectID="F9957B87-269A-3A6B-0417-D2F3E549E059" name="RLSMGR_OBJECTS" seqName="seg_0"/>
+   <object objectType="Table" objectID="3B1D927E-801E-ACC5-D5B9-7E4CDDEE630B" name="RLSMGR_OBJ_TYPES" seqName="seg_0"/>
+   <object objectType="Table" objectID="0CADB451-26CF-6714-BCD1-76463BA273AE" name="RLSMGR_PRJ_MANAGERS" seqName="seg_0"/>
+   <object objectType="Table" objectID="5154189F-F705-5506-AF29-6E23B6DBE9F4" name="RLSMGR_RELEASES" seqName="seg_0"/>
+   <object objectType="Table" objectID="6230C067-BF33-669C-A195-8C6D21F8D54F" name="RLSMGR_RLS_TYPES" seqName="seg_0"/>
+   <object objectType="Table" objectID="71B78DCD-B9D3-F181-4155-69434513C1FC" name="RLSMGR_STATUSES" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="87B56F95-5EF9-E764-5C10-0787BCA7350F" name="AREA_ID_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E34893F1-0520-1509-2D26-3AB1691E91EA" name="RLS_TYPE_FKv1" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="D6ADC052-A7EA-07D8-6D52-7D25081F436F" name="OBJ_TYPE_ID_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="29A5F155-9874-558D-68C2-B0EBF692CBF5" name="RLSMGR_FORMCHANGESOBJS_CON" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="8F9D086D-B286-BEDC-3608-F4E7A9CBE941" name="RLSMGR_FORMCHANGESOBJS_CON2" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="DD715752-26A8-9EAF-121C-895CE0561030" name="RLSMGR_FORMID_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="DF5ACA6F-932F-6EA3-6891-6412908385EA" name="RLSMGR_FORMREFERSTOAREAS_FK1" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="5CDE7B42-37A1-EFBB-2E70-0DA705E90792" name="RLSMGR_FORMREFERSTOAREAS_FK2" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="007D368E-4EFD-DF52-96BB-F8AE37FDEA58" name="RLSMGR_FORMS2RELEASES_MAP_FK1" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="5EBDA807-11E5-2AED-711B-4D9D95ADC73B" name="RLSMGR_FORMS2RELEASES_MAP_FK2" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B5F70E0C-967D-71FE-F2A8-34F121CDC4BF" name="RLSMGR_FORMTYP_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A80C785D-6F24-D87B-3DAF-832A71EF0574" name="RLSMGR_OBJAREA_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="FFEF72C0-D3A4-FFB4-6238-9C19EC82189C" name="RLSMGR_OBJTYPES_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B6D0B8EF-8F2D-3C23-1AF3-6790C312980A" name="RLSMGR_RLS_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="20C22712-5629-1F18-D56C-AD6F152FFF07" name="RLSMGR_STATUSID_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A3D513B3-D5A9-F0FC-C186-0148FF2BCE03" name="RLS_TYPE_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

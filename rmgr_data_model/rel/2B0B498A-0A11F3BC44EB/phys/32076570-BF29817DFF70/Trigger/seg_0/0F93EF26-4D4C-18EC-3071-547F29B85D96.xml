@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="BI_RLSMGR_AREAS" id="0F93EF26-4D4C-18EC-3071-547F29B85D96" directorySegmentName="seg_0">
+<sourceConnName>RMGR@EXADWHPROD</sourceConnName>
+<sourceObjSchema>RMGR</sourceObjSchema>
+<sourceObjName>BI_RLSMGR_AREAS</sourceObjName>
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:15 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<actions>INSERT</actions>
+<body>begin   &lt;br/&gt;  if :NEW.&quot;AREA_ID&quot; is null then &lt;br/&gt;    select &quot;RLSMGR_AREAS_SEQ&quot;.nextval into :NEW.&quot;AREA_ID&quot; from dual; &lt;br/&gt;  end if; &lt;br/&gt;end; &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>FDA86F85-BE01-0F29-CE78-86C6CF93F0A8</owner>
+<table>913B35F1-243E-67A4-7100-42A12DFA90A4</table>
+</TriggerOraclev10g>

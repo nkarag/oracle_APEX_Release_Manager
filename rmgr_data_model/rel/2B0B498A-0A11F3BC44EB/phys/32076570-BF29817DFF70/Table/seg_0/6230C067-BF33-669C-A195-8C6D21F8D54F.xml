@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="RLSMGR_RLS_TYPES" id="6230C067-BF33-669C-A195-8C6D21F8D54F" directorySegmentName="seg_0">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>2AC47B44-ED5A-1D29-7A1C-DA03C097C6E0</segment>
+<tableSpace>1AD7192A-BA21-0B4D-9E5C-5063D2C6B2F3</tableSpace>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="RLS_TYPE_CODE" id="80D6155B-632D-606D-7E03-7891CC950A7E">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="RLS_TYPE_DESC" id="D22B4983-67E2-419E-D8BB-D6D65BC51FAD">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:13 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IX_SYS_C00120363" id="5EB2FE9B-9EB3-20D3-28B4-1101D6A155A3">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:14 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<segment>6D78613B-598B-4F21-1D43-B9048C33730C</segment>
+<sortedRows>SORTED</sortedRows>
+<tableSpace>1AD7192A-BA21-0B4D-9E5C-5063D2C6B2F3</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SYS_C00120363" id="6F6798D9-E503-8538-7BBC-10C17F97527A">
+<createdBy>nkarag</createdBy>
+<createdTime>2012-08-16 13:42:15 UTC</createdTime>
+<ownerDesignName>rmgr_data_model</ownerDesignName>
+<sortedRows>SORTED</sortedRows>
+<tableSpace>1AD7192A-BA21-0B4D-9E5C-5063D2C6B2F3</tableSpace>
+<existingIndex>5EB2FE9B-9EB3-20D3-28B4-1101D6A155A3</existingIndex>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
